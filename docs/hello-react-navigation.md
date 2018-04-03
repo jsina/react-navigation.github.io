@@ -31,7 +31,7 @@ class HomeScreen extends React.Component {
   }
 }
 
-export default createStackNavigator({
+export default StackNavigator({
   Home: HomeScreen,
 });
 ```
